@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestAssignment1 extends BaseTest {
-    String email = "p14@g.com";
+    String email = "gmilind@gmail.com";
     String password = "Automation@123";
 
     @Test
@@ -15,7 +15,7 @@ public class TestAssignment1 extends BaseTest {
         String totalExp = "Total Year Of Experience-5";
         String expectedResponse = "You'll get an email when Bill responds.";
         String expectedJobHelpMessage = "You reached out to Bill for help with a job!";
-        // ==============================================================================
+        //************************************************************************************
         PeopleGroverPage applicant = new PeopleGroverPage(driver);
         log.debug("Landing on Home Page and clicking on login");
 
