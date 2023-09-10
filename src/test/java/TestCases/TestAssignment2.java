@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class TestAssignment2 extends BaseTest {
-    String email = "gmilind@gmail.com";
+    String email = "a1@g.com";
     String password = "Automation@123";
 
     @Test

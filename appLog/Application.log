@@ -1,119 +1,113 @@
-19:04:52,697 DEBUG BaseTest:58 - [ Chrome Browser Launched ]
-19:04:53,436 DEBUG BaseTest:83 - [ Navigated to: https://basecopy5.staging.pg-test.com/v2/]
-19:04:55,397 DEBUG TestAssignment2:18 - Landing on Home Page and clicking on login
-19:04:55,398 DEBUG TestAssignment2:20 - Entering valid EmailId[ p14@g.com And Password Automation@123] 
-19:05:00,776 DEBUG TestAssignment2:22 - Successfully logged in with [ p14@g.com And Password Automation@123] 
-19:05:00,777 DEBUG TestAssignment2:24 - Selecting Carrier options from Dropdowns
-19:05:04,832 DEBUG TestAssignment2:26 - Selected [ Career Paths ] options from Dropdowns
-19:05:04,833 DEBUG TestAssignment2:28 - Selecting 3 Job Titles from inspiration Section and storing in List
-19:05:17,144 DEBUG TestAssignment2:30 - Performed Click and Back Action Using Loops
-19:05:17,145 DEBUG TestAssignment2:32 - Performed Click and Back Action Using Loops
-19:05:20,056 DEBUG TestAssignment2:36 - Validating [[Legal Consultants, Test Engineer in SDET, Krittikaa Testing] = [Account Executives, Legal Consultants, Test Engineer in SDET]]  
-19:05:20,696 DEBUG BaseTest:93 - [ Test Execution Completed ]
-19:05:20,735 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,736 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
-19:05:20,747 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
-19:05:20,749 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
-19:05:20,750 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
-19:05:20,835 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,835 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
-19:05:20,836 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
-19:05:20,836 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
-19:05:20,836 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
-19:05:20,912 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,913 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
-19:05:20,914 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
-19:05:20,914 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
-19:05:20,914 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
-19:05:20,921 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,921 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
-19:05:20,921 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
-19:05:20,922 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
-19:05:20,922 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
-19:05:20,925 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,925 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
-19:05:20,926 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
-19:05:20,926 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
-19:05:20,926 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
-19:05:20,928 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,929 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
-19:05:20,929 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
-19:05:20,930 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
-19:05:20,930 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
-19:05:20,934 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
-19:05:20,934 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,935 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
-19:05:20,935 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
-19:05:20,936 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
-19:05:20,936 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
-19:05:20,944 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,944 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
-19:05:20,945 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
-19:05:20,945 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
-19:05:20,945 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
-19:05:20,949 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,950 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
-19:05:20,950 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
-19:05:20,950 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
-19:05:20,951 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
-19:05:20,951 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,952 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
-19:05:20,952 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
-19:05:20,952 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
-19:05:20,952 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
-19:05:20,959 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,960 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
-19:05:20,960 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
-19:05:20,960 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
-19:05:20,960 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
-19:05:20,970 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,970 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
-19:05:20,970 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
-19:05:20,971 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
-19:05:20,971 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
-19:05:20,989 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:20,990 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
-19:05:20,990 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
-19:05:20,991 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
-19:05:20,991 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
-19:05:21,002 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
-19:05:21,004 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:21,005 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
-19:05:21,005 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
-19:05:21,006 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
-19:05:21,006 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
-19:05:21,014 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:21,014 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
-19:05:21,015 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
-19:05:21,016 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
-19:05:21,016 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
-19:05:21,017 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:21,017 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
-19:05:21,017 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
-19:05:21,018 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
-19:05:21,018 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
-19:05:21,019 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:21,019 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
-19:05:21,020 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
-19:05:21,020 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
-19:05:21,020 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
-19:05:21,021 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:21,021 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
-19:05:21,022 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
-19:05:21,022 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
-19:05:21,022 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
-19:05:21,023 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:21,023 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
-19:05:21,024 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
-19:05:21,024 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
-19:05:21,024 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
-19:05:21,055 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:21,056 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
-19:05:21,056 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
-19:05:21,056 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
-19:05:21,057 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
-19:05:21,058 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
-19:05:21,059 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
-19:05:21,059 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
-19:05:21,059 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
-19:05:21,060 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+15:27:13,329 DEBUG BaseTest:58 - [ Chrome Browser Launched ]
+15:27:15,342 DEBUG BaseTest:83 - [ Navigated to: https://basecopy5.staging.pg-test.com/v2/]
+15:27:17,909 DEBUG TestAssignment1:20 - Landing on Home Page and clicking on login
+15:27:17,909 DEBUG TestAssignment1:22 - Entering valid EmailId[ a1@g.com And Password Automation@123] 
+15:27:23,246 DEBUG TestAssignment1:24 - Successfully logged in with [ a1@g.com And Password Automation@123] 
+15:27:23,248 DEBUG TestAssignment1:26 - Selecting Carrier options from Dropdowns
+15:27:25,928 DEBUG TestAssignment1:28 - selected 'Jobs' Options from Carrier dropdowns
+15:27:42,814 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,814 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+15:27:42,815 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+15:27:42,816 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+15:27:42,816 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+15:27:42,856 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,857 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+15:27:42,857 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+15:27:42,858 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+15:27:42,858 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/tech/grasshopper/htmlextentreporter/1.0.1/htmlextentreporter-1.0.1.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+15:27:42,910 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,911 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+15:27:42,911 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+15:27:42,911 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+15:27:42,911 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+15:27:42,916 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,917 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+15:27:42,917 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+15:27:42,917 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+15:27:42,917 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+15:27:42,918 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,919 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+15:27:42,919 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+15:27:42,919 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+15:27:42,919 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+15:27:42,921 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,921 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+15:27:42,921 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+15:27:42,922 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+15:27:42,922 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+15:27:42,924 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+15:27:42,924 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,925 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+15:27:42,925 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+15:27:42,925 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+15:27:42,925 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+15:27:42,930 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,931 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+15:27:42,931 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+15:27:42,931 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+15:27:42,931 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+15:27:42,934 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,935 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+15:27:42,935 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+15:27:42,935 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+15:27:42,935 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+15:27:42,936 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,936 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+15:27:42,936 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+15:27:42,937 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+15:27:42,937 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+15:27:42,942 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,942 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+15:27:42,943 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+15:27:42,943 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+15:27:42,943 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+15:27:42,954 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,955 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+15:27:42,956 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+15:27:42,956 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+15:27:42,956 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+15:27:42,976 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,977 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+15:27:42,978 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+15:27:42,979 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+15:27:42,979 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+15:27:42,987 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,987 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
+15:27:42,988 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+15:27:42,989 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+15:27:42,989 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+15:27:42,990 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,991 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
+15:27:42,992 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+15:27:42,992 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+15:27:42,993 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+15:27:42,994 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,994 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
+15:27:42,994 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+15:27:42,995 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+15:27:42,995 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+15:27:42,996 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,997 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
+15:27:42,997 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+15:27:42,997 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+15:27:42,997 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+15:27:42,998 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:42,999 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
+15:27:42,999 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+15:27:42,999 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+15:27:43,000 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+15:27:43,001 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:43,001 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+15:27:43,001 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+15:27:43,002 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+15:27:43,002 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+15:27:43,041 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:43,042 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+15:27:43,042 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+15:27:43,043 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+15:27:43,043 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+15:27:43,045 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+15:27:43,045 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+15:27:43,046 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+15:27:43,046 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+15:27:43,046 DEBUG _Log4jLoggerFactory$Log4jLogger:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/home/milind/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"

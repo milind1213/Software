@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestAssignment1 extends BaseTest {
-    String email = "gmilind@gmail.com";
+    String email = "a1@g.com";
     String password = "Automation@123";
 
     @Test
@@ -49,6 +49,7 @@ public class TestAssignment1 extends BaseTest {
 
         log.debug(" Printing the Others Similar User Details");
         applicant.profileDetails();
+
     }
 
 }
