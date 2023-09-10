@@ -1,8 +1,8 @@
 ##How To Run The Test Suites:
 1.Open your terminal/command prompt.
 2.Navigate to the project directory.
-3.Run the test suite using the following command: mvn test
-4.will execute all the test cases mentioned in the suite file present in resource/TestNGxml.
+3.Run the test suite using the following command: mvn test    OR  TestNG.xml
+4.will execute all the test cases mentioned in the suite file present in resource -> Runner -> TestNGxml. 
 
 ##failure happened, failure happened, we can check the screenshot of failures in Reports Folder in the project with the Name of TestCase, 
 also look for the stack trace in the report and verify the line where it failed.
