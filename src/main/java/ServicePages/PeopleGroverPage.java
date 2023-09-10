@@ -20,8 +20,7 @@ public class PeopleGroverPage extends AbstractComponent {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//button[contains(@class,'arge__t0EME')]")
-    WebElement signUp;
+
     @FindBy(id = "email")
     WebElement emailText;
     @FindBy(id = "password")
@@ -32,14 +31,17 @@ public class PeopleGroverPage extends AbstractComponent {
     WebElement carrier;
     @FindBy(css = ".fr-element.fr-view")
     WebElement messageTexts;
-    private By jobTitle = By.xpath("(//*[@class='ant-card-body'])[1]");
-    private By askQuestionBtn = By.xpath("//button[contains(text(),'Ask a Question')]");
-    private By messageText = By.cssSelector(".fr-element.fr-view");
-    private By sendBtn = By.xpath("//span[contains(text(),'Send')]");
-    private By keepConvoGoingBtn = By.xpath("//*[text()='Keep the Convo Going!']");
-    private By viewProfile = By.xpath("//button[@class='ant-btn btn-link']");
+    @FindBy(xpath = "//button[contains(@class,'arge__t0EME')]")
+    WebElement signUp;
 
-    public void login(String email, String password) {
+    private By messageText = By.cssSelector(".fr-element.fr-view");
+    private By askQuestionBtn = By.xpath("//div[@class='ctaContainer__totDE']//child::button[contains(text(),'Ask a Question')]");
+    private By jobTitle = By.cssSelector("div.ant-card-bordered:first-child");
+    private By sendBtn = By.xpath("//div[@class='sendMessageBtn__NhCjS']//child::button");
+    private By keepConvoGoingBtn = By.cssSelector(".Button-module_primary__4ciLr.cta__XUl3v");
+    private By viewProfile = By.xpath("//button[@type='button' and @class='ant-btn btn-link']");
+
+public void login(String email, String password) {
         signUp.click();
         waitForElementDisplay(emailText, 2);
         sendKeys(emailText, email);
@@ -48,17 +50,13 @@ public class PeopleGroverPage extends AbstractComponent {
     }
 
     public void profileDetails() {
-        log("Clicking on View Profile button");
         click(viewProfile);
-
-        log("Clicking on Users Profile photo");
-        click(By.xpath("//button[contains(@class,'profile-link')]//img"));
+        click(By.xpath("//div[@class='preview-user-sider__header']//following::h3"));
         waitFor(2);
-
-        List<WebElement> otherUsers = driver.findElements(By.xpath("//div[@class='ant-spin-container']//div[2]"));
+        List<WebElement> otherUsers = driver.findElements(By.cssSelector(".ant-spin-container>div"));
         for(int i=0;i<otherUsers.size();i++){
             String nameDesignation = otherUsers.get(i).getText();
-            System.out.println(" Name and Designation :"+ nameDesignation);
+            System.out.println("Name & OtherDetails : "+ nameDesignation);
         }
     }
 

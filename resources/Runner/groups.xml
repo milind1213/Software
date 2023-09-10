@@ -6,7 +6,6 @@
     </listeners>
     <test  name="Test">
         <classes>
-            <class name="TestComponents.BaseTest"/>
             <class name="TestCases.TestAssignment1"/>
             <class name="TestCases.TestAssignment2"/>
         </classes>
