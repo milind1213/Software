@@ -12,9 +12,10 @@ Also, we are capturing device logical log for verifying the logs which will be p
 ##Where to see reports:
 We can get the report in the project report folder  : ExtentTestReport.html 
 
-
+<<<<<<<<< Temporary merge branch 1
 Adding New Numbers 
 1 ,2,3,4,5
-
-Adding CHarecters 
-A B C D 
+=========
+Adding Alphabest
+A, B ,C ,D ,E 
+>>>>>>>>> Temporary merge branch 2
