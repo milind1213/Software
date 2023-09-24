@@ -12,3 +12,5 @@ Also, we are capturing device logical log for verifying the logs which will be p
 ##Where to see reports:
 We can get the report in the project report folder  : ExtentTestReport.html 
 
+Adding Alphabest
+A, B ,C ,D ,E 
