@@ -10,12 +10,4 @@ also look for the stack trace in the report and verify the line where it failed.
 Also, we are capturing device logical log for verifying the logs which will be present in appLog folder in the project location.\
 
 ##Where to see reports:
-We can get the report in the project report folder  : ExtentTestReport.html 
-
-<<<<<<<<< Temporary merge branch 1
-Adding New Numbers 
-1 ,2,3,4,5
-=========
-Adding Alphabest
-A, B ,C ,D ,E 
->>>>>>>>> Temporary merge branch 2
+We can get the report in the project report folder  : ExtentTestReport.html
