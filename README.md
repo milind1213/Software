@@ -12,3 +12,5 @@ Also, we are capturing device logical log for verifying the logs which will be p
 ##Where to see reports:
 We can get the report in the project report folder  : ExtentTestReport.html 
 
+Adding New Numbers 
+1 ,2,3,4,5
