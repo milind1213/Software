@@ -16,3 +16,6 @@ We can get the report in the project report folder  : ExtentTestReport.html
 Adding New Numbers 
 1 ,2,3,4,5
 
+
+Adding Charecters 
+A B C D
