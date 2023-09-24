@@ -6,21 +6,16 @@
     <groupId>MGs</groupId>
     <artifactId>MG-Software</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <properties>
-        <!-- Define common dependency versions here -->
-        <testng.version>7.7.0</testng.version>
-        <selenium.version>3.141.59</selenium.version>
-        <log4j.version>1.2.17</log4j.version>
-        <poi.version>5.2.3</poi.version>
-        <poi-ooxml.version>5.2.3</poi-ooxml.version>
-        <xmlbeans.version>3.1.0</xmlbeans.version>
-        <webdrivermanager.version>5.4.0</webdrivermanager.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
 
     <dependencies>
+        <!-- Selenium WebDriver -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>3.141.59</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -41,15 +36,16 @@
             <artifactId>cucumber-testng</artifactId>
             <version>7.7.0</version>
         </dependency>
+
         <dependency>
             <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
+            <artifactId>poi</artifactId>
             <version>5.2.3</version>
         </dependency>
 
         <dependency>
             <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
+            <artifactId>poi-ooxml</artifactId>
             <version>5.2.3</version>
         </dependency>
         <!-- ... -->
@@ -69,34 +65,23 @@
         <dependency>
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
-            <version>${log4j.version}</version>
+            <version>1.2.17</version>
         </dependency>
         <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>${testng.version}</version>
+            <version>7.7.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
-        <dependency>
-            <groupId>com.beust</groupId>
-            <artifactId>jcommander</artifactId>
-            <version>1.82</version>
-        </dependency>
 
-        <!-- Selenium WebDriver -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
-        </dependency>
+
 
         <!-- WebDriverManager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>${webdrivermanager.version}</version>
+            <version>5.4.0</version>
         </dependency>
 
         <!-- Extent Reports -->
@@ -151,29 +136,50 @@
             <version>1.4.7</version>
         </dependency>
 
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.25</version>
-        </dependency>
-        <!-- POI -->
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>${poi.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>${poi-ooxml.version}</version>
-        </dependency>
         <!-- Additional uncommon dependencies added -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>2.11.0</version> <!-- Use the latest version -->
         </dependency>
+
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>jcommander</artifactId>
+            <version>1.72</version> <!-- Make sure the version is correct -->
+        </dependency>
         <!-- ... -->
+
     </dependencies>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+    <build>
+        <plugins>
+            <!-- Maven Compiler Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
+                <configuration>
+                    <!-- Compiler configuration here -->
+                </configuration>
+            </plugin>
+
+            <!-- Maven Resources Plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <!-- Resources configuration here -->
+                </configuration>
+            </plugin>
+
+            <!-- Other plugins... -->
+        </plugins>
+    </build>
     <!-- ... -->
 </project>

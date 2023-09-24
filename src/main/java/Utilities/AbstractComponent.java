@@ -31,12 +31,12 @@ package Utilities;
   }
 
   public void waitForElementToAppear(By productsBy) {
-      WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5).toMillis());
+      WebDriverWait wait = new WebDriverWait(driver,5);
       wait.until(ExpectedConditions.visibilityOf((WebElement) productsBy));
 	}
 
       public void waitForElementToAppears(WebElement ele ) {
-          WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10).toMillis());
+          WebDriverWait wait = new WebDriverWait(driver, 10);
           wait.until(ExpectedConditions.visibilityOf(ele));
       }
 

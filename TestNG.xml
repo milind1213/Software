@@ -4,10 +4,11 @@
     <listeners>
         <listener class-name="TestComponents.Listeners"></listener>
     </listeners>
-    <test name="Test">
+    <test name="Assignments">
         <classes>
             <class name="TestCases.TestAssignment1"/>
             <class name="TestCases.TestAssignment2"/>
+            <class name="TestCases.TestAssignment3"/>
         </classes>
     </test> <!-- Test -->
 </suite>

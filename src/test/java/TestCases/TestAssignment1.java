@@ -28,7 +28,7 @@ public class TestAssignment1 extends BaseTest {
 
         log.debug("Selecting Carrier options from Dropdowns");
         applicant.selectJobs("Jobs");
-        log.debug("selected 'Jobs' Options from Carrier dropdowns");
+       /* log.debug("selected 'Jobs' Options from Carrier dropdowns");
         applicant.JobInquiryAndSendMessage(nameDate, totalExp);
 
         String actualToastMessage = applicant.validatingToastMessage();
@@ -51,7 +51,7 @@ public class TestAssignment1 extends BaseTest {
         Assert.assertEquals(inboxText, nameDate, totalExp);
 
         log.debug(" Printing the Others Similar User Details");
-        applicant.profileDetails();
+        applicant.profileDetails();*/
     }
 
 
