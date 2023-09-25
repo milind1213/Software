@@ -56,7 +56,8 @@ public class BaseTest {
                 System.getProperty("browser") : prop.getProperty("browser");
         if (browserName.contains("chrome")) {
             log.debug("[ Chrome Browser Launched ]");
-            WebDriverManager.chromedriver().setup();
+           // WebDriverManager.chromedriver().setup();
+            System.setProperty("webdriver.chrome.driver", "/home/milind/Desktop/Frameworks/Software/resources/chromedriver");
             ChromeOptions options = new ChromeOptions();
             if (browserName.contains("headless")) {
                 options.addArguments("headless");
