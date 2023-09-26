@@ -1,7 +1,7 @@
-11:02:23,360 DEBUG BaseTest:58 - [ Chrome Browser Launched ]
-11:02:24,520 DEBUG BaseTest:84 - [ Navigated to: https://basecopy5.staging.pg-test.com/v2/]
-11:02:30,311 DEBUG TestAssignment1:23 - Landing on Home Page and clicking on login
-11:02:30,313 DEBUG TestAssignment1:25 - Entering valid EmailId[ milind.g@gmail.com And Password Automation@123] 
-11:02:36,249 DEBUG TestAssignment1:27 - Successfully logged in with[ milind.g@gmail.com And Password Automation@123] 
-11:02:36,249 DEBUG TestAssignment1:29 - Selecting Carrier options from Dropdowns
-11:02:39,822 DEBUG BaseTest:94 - [ Test Execution Completed ]
+11:19:16,650 DEBUG BaseTest:58 - [ Chrome Browser Launched ]
+11:19:17,172 DEBUG BaseTest:84 - [ Navigated to: https://basecopy5.staging.pg-test.com/v2/]
+11:19:19,451 DEBUG TestAssignment1:23 - Landing on Home Page and clicking on login
+11:19:19,452 DEBUG TestAssignment1:25 - Entering valid EmailId[ milind.g@gmail.com And Password Automation@123] 
+11:19:24,160 DEBUG TestAssignment1:27 - Successfully logged in with[ milind.g@gmail.com And Password Automation@123] 
+11:19:24,160 DEBUG TestAssignment1:29 - Selecting Carrier options from Dropdowns
+11:19:26,620 DEBUG BaseTest:94 - [ Test Execution Completed ]
