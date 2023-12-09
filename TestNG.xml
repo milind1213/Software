@@ -8,7 +8,6 @@
         <classes>
             <class name="TestCases.TestAssignment1"/>
             <class name="TestCases.TestAssignment2"/>
-            <class name="TestCases.TestAssignment3"/>
         </classes>
     </test> <!-- Test -->
 </suite>

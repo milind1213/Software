@@ -20,7 +20,6 @@ public class PeopleGroverPage extends AbstractComponent {
         PageFactory.initElements(driver, this);
     }
 
-
     @FindBy(id = "email")
     WebElement emailText;
     @FindBy(id = "password")
@@ -81,17 +80,17 @@ public void login(String email, String password) {
     public void JobInquiryAndSendMessage(String nameDate, String totalExp) {
         log("Clicking on Job Title");
         click(jobTitle);
-        waitForElementDisplay(askQuestionBtn, 2);
+        waitForElementDisplay(driver,askQuestionBtn, 2);
 
         log("Clicking on Ask Question Button");
-        scrollDoubleClick(askQuestionBtn);
+        scrollClick(askQuestionBtn);
         waitFor(2);
 
         log("Waiting for Message Text Element to Display");
-        waitForElementDisplay(messageText, 2);
+        waitForElementDisplay(driver,messageText, 2);
 
         log("Scrolling and Clicking on TextBox");
-        scrollToElementAndClick(messageTexts);
+        scrollToElementAndClick(driver,messageTexts);
 
         log("Entering the Text '" + nameDate + " " + totalExp + " into the TextBox");
         sendKeys(messageText, nameDate);
@@ -106,7 +105,7 @@ public void login(String email, String password) {
 
     public void click_keepConvoGoingBtn() {
         try {
-            waitForElementDisplay(keepConvoGoingBtn, 2);
+            waitForElementDisplay(driver,keepConvoGoingBtn, 2);
             scrollClick(keepConvoGoingBtn);
         } catch (StaleElementReferenceException e) {
             e.printStackTrace();
