@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.TestAssignment1">
+      <class name="TestCases.TestAssignment2">
         <methods>
           <include name="launchApplication"/>
           <include name="tearDown"/>
+          <include name="assignment_2"/>
           <include name="initializeDriver"/>
-          <include name="assignment_1" invocation-numbers="0"/>
         </methods>
-      </class> <!-- TestCases.TestAssignment1 -->
+      </class> <!-- TestCases.TestAssignment2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
